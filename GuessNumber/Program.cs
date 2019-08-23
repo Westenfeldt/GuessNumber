@@ -6,7 +6,12 @@ namespace GuessNumber
     {
         static void Main(string[] args)
         {
-            int numberToGuess = 10;
+
+            Random random = new Random();
+
+
+
+            int numberToGuess = random.Next();
             int guess = 0;
 
             Console.WriteLine("Hvad gætter du på tallet er?");
