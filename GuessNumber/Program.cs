@@ -11,7 +11,7 @@ namespace GuessNumber
 
 
 
-            int numberToGuess = random.Next();
+            int numberToGuess = random.Next(1, 100);
             int guess = 0;
 
             Console.WriteLine("Hvad gætter du på tallet er?");
